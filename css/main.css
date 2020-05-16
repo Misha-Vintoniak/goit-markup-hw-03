@@ -19,7 +19,6 @@ body {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    align-items: center;
     text-align: center ;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -30,7 +29,7 @@ body {
 .position .button:hover {
     background: var(--accent-color);
     color: var(--primary-white-color);
-    border: 1px var(--accent-color);
+    border: 1px solid var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 h1 {
@@ -46,8 +45,7 @@ h1 {
 
 /* <!-- zanyattya --> */
 
-.position .list,
-.team .container >.list,
+.position .process,
 .team .social {
     margin: 0px;
     padding-left: 0px ;
@@ -95,7 +93,7 @@ p {
 }
 
 .list .size {
-   font-weight: 400;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -115,14 +113,22 @@ h2 {
 }
 .decision img {
     display: block;
+    margin-bottom: 0px;
+}
+
+.decision .item {
+    position: relative;
+    display: block;
+
 }
 .decision h3 {
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
+
 }
 .item .shadow {
-    display: inline-block;
+    display: block;
     text-align: center;
     padding: 27px 89px;
     min-width: 205px;
@@ -132,7 +138,9 @@ h2 {
 .shadow {
     color: var(--primary-white-color);
     background: rgba(47, 48, 58, 0.8);
-
+    padding-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
 }
 
 /* <!-- Наша команда --> */
@@ -237,10 +245,4 @@ h4 {
 }
 .klienty .item {
     margin-bottom: 0px;
-}
-.klienty .item:focus,
-.klienty .item:hover{
-    background: var(--accent-color);
-    border-radius: 4px;
-    border: 1px solid #2196F3;
 }

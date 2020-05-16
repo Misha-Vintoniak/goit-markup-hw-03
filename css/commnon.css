@@ -78,11 +78,15 @@ background: #2F303A;*/
 .site-nav .item {
     padding-top: 24px;
     padding-bottom: 25px;
+    padding: 32px 0px 32px 0px;
 }
-
+.site-nav .link {
+    padding: 32px 0px 32px 0px;
+}
 .list .link:focus,
 .list .link:hover {
     color: var(--accent-color);
+
 }
 .list .link.current {
     color: var(--accent-color);
@@ -109,11 +113,15 @@ background: #2F303A;*/
     background-image: url(../img/mail.svg);
     background-repeat: no-repeat;
     display: inherit;
+    background-position: left center;
+    margin-right: 10px;
 }
 .tell-icon {
     background-image: url(../img/mobile.svg);
     background-repeat: no-repeat;
     display: inherit;
+    background-position: left center;
+    margin-right: 10px;
 }
 .items .tell-icon {
     min-width: 122px;
