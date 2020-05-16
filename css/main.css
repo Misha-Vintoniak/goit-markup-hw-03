@@ -110,6 +110,7 @@ h2 {
 .decision {
     margin-top: 50px;
     padding-left: 0px;
+    margin-bottom: 0px;
 }
 .decision img {
     display: block;
@@ -150,6 +151,12 @@ h2 {
     background-color: var(--third-bg-color);
     padding-top: 90px;
     padding-bottom: 90px;
+}
+.team .list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+
 }
 .team .item {
     background-color: var(--primary-white-color);
@@ -242,6 +249,7 @@ h4 {
     /* padding-right: 0px; */
     margin-top: 50px;
     padding-left: 0px;
+    margin-bottom: 0px;
 }
 .klienty .item {
     margin-bottom: 0px;
