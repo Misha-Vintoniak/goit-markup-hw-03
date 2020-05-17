@@ -199,9 +199,9 @@ h4 {
     justify-content: space-between;
 
 }
-/* .customers .item {
-
-} */
+.customers h2 {
+    padding-top: 94px;
+}
 
 .client-ya {
     background-image: url(../img/YACO.svg);
