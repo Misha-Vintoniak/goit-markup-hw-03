@@ -23,19 +23,24 @@ background: #2F303A;*/
 /*  font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif; */
     /* <!-- Навігація --> */
-
-.site-nav .logo {
-    color: var(--accent-color);
-    list-style: none;
+.header-logo {
+    text-decoration: none;
     padding-top: 24px;
     padding-bottom: 25px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+}
+.site-nav .logo {
+    color: var(--accent-color);
 }
 
 .site-nav .site-logo {
     color: #000000;
-    list-style: none;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .site-footer {
@@ -47,7 +52,7 @@ background: #2F303A;*/
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 1230px;
+    width: 1230px;
     outline: 2px solid blue;
 }
 .position {
@@ -68,22 +73,12 @@ background: #2F303A;*/
 
 .site-nav {
     display: flex;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-
     align-items: center;
 }
-.site-nav .item + .item{
+.site-nav .item+.item{
     margin-left: 50px;
 }
-.site-nav .item {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    padding: 32px 0px 32px 0px;
-}
+
 .site-nav .link {
     padding: 32px 0px 32px 0px;
 }
@@ -138,17 +133,21 @@ background: #2F303A;*/
     padding-top: 48px;
     padding-bottom: 0px;
 }
-.footer .container {
+.footer-nav {
     display: flex;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 28px;
+
 }
 .adres {
     white-space: nowrap;
-
 }
 
-.container .footer-logo {
+.adres .footer-logo {
     display: flex;
     list-style: none;
+    text-decoration: none;
 
 
     font-family: Raleway;
@@ -161,71 +160,31 @@ background: #2F303A;*/
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
-.footer .logo {
+.adres .logo {
     color: var(--accent-color);
 }
-.footer .site-logo {
-
+.adres .site-logo {
     color:var(--primary-white-color);
 }
-
 .text {
     color: var(--primary-text-color);
 }
 
-address {
+.address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    text-align: left;
-    list-style: none;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .adres .address+.address {
     margin-bottom: 9px;
 }
-.address {
 
-    color: rgba(255, 255, 255, 0.6);
-    list-style: none;
-}
-.footer .title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.footer .join {
+.footer-nav .join {
     margin-left: 179px;
     margin-bottom: 0px;
-
-}
-.button {
-    background:  #F5F4FA;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 1.9;
-    text-align: center;
-    letter-spacing: 0.06em;
-    }
-.footer .button:focus,
-.footer .button:hover {
-    background: var(--accent-color);
-    color: var(--primary-white-color);
-    box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.customer {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2.0;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.4);
-    border-top-width: 3px;
-
-    margin-top: 18px;
-    margin-bottom: 0;
 }
 .social {
     justify-content: space-around;
@@ -266,7 +225,6 @@ address {
     padding-left: 0px;
     margin-top: 24px;
 }
-
 .join .instagram,
 .join .twitter,
 .join .facebook,
@@ -281,13 +239,83 @@ address {
 .social .twitter:hover {
     background-color: var(--accent-color);
     border-radius: 90%;
-}.social .facebook:hover {
-   background-color: var(--accent-color);
-   border-radius: 90%;
-}.social .linkedin:hover {
+}
+.social .facebook:hover {
    background-color: var(--accent-color);
    border-radius: 90%;
 }
+.social .linkedin:hover {
+   background-color: var(--accent-color);
+   border-radius: 90%;
+}
+
 .footer .sign {
     margin-left: 104px;
+}
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 21px;
+    margin: 0px;
+}
+.signature {
+    /* width: 350px;
+    height: 50px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: left;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-right: 12px;
+    padding: 12px 18px;
+    display: inline;
+}
+.sign {
+    white-space: nowrap;
+}
+.sign .button {
+    background: var(--third-bg-color);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 12px 62px 12px 29px;
+    border: 1px solid transparent;
+    display: inline;
+    /* width: 200px;
+    height: 50px; */
+}
+.sign .button:focus,
+.sign .button:hover {
+    background: var(--accent-color);
+    color: var(--primary-white-color);
+    box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--accent-color);
+}
+
+/* .copyright {
+
+} */
+.line {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 18px;
+}
+.customer {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2.0;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
+    border-top-width: 3px;
+    margin-bottom: 0;
 }
