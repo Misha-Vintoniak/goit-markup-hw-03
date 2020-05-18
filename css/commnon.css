@@ -23,6 +23,12 @@ background: #2F303A;*/
 /*  font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif; */
     /* <!-- Навігація --> */
+img {
+    display: block;
+    max-width: 100%;
+    
+}
+
 .header-logo {
     text-decoration: none;
     padding-top: 24px;
@@ -34,6 +40,9 @@ background: #2F303A;*/
     line-height: 1.2;
     letter-spacing: 0.03em;
 
+}
+header {
+    border-bottom: 1px solid #ECECEC;
 }
 .site-nav .logo {
     color: var(--accent-color);
@@ -52,7 +61,7 @@ background: #2F303A;*/
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1230px;
+    width: 1200px;
     /* outline: 2px solid blue; */
 }
 .position {
@@ -60,6 +69,8 @@ background: #2F303A;*/
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 94px;
+    padding-top: 94px;
+    /* outline: 1px solid red; */
 }
 
 .link {
@@ -183,7 +194,7 @@ background: #2F303A;*/
 }
 
 .footer-nav .join {
-    margin-left: 179px;
+    margin-left: 69px;
     margin-bottom: 0px;
 }
 .social {
@@ -250,7 +261,7 @@ background: #2F303A;*/
 }
 
 .footer .sign {
-    margin-left: 104px;
+    margin-left: 93px;
 }
 .title {
     font-weight: 700;

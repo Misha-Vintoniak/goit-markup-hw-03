@@ -1,4 +1,6 @@
 
+
+
 body {
     background: #FFFFFF;
     color: var(--secondary-text-color);
@@ -7,7 +9,9 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+
 }
+/* overflow: hidden; */
 
 .button {
     background:  #F5F4FA;
@@ -39,7 +43,7 @@ body {
     padding-left: 0px;
 }
 .item-services {
-    width: 380px;
+    width: 370px;
     margin: 15px;
 }
 .services :nth-last-child(-n +3){
@@ -75,6 +79,17 @@ h2 {
     letter-spacing: 0.06em;
     margin-top: 20px;
     margin-bottom: 4px;
+}
+.item-services img {
+    border-radius: 5px 5px 0px 0px;
+    overflow: hidden;
+
+}
+.bloc {
+    border: 1px solid #EEEEEE;
+    border-radius: 0px 0px 5px 5px;
+    overflow: hidden;
+    padding: 24px 20px;
 }
 .list-services .kontent {
     font-size: 18px;

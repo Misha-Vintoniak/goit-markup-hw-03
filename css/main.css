@@ -77,7 +77,7 @@ h3 {
 .process img {
     display: block;
     border-radius: 4px;
-    width: 278px;
+    width: 270px;
     height: 120px;
     padding: 25px 104px;
     background-color: var(--third-bg-color);
@@ -99,7 +99,9 @@ p {
     font-size: 14px;
     line-height: 1.7;
 }
-
+.border {
+    border-bottom: 1px solid #ECECEC;
+}
 
 /* <!-- Riwennya --> */
 
@@ -133,8 +135,7 @@ h2 {
 .item .shadow {
     display: block;
     text-align: center;
-    padding: 27px 89px;
-    min-width: 205px;
+
 
     white-space: nowrap;;
 }
@@ -144,6 +145,7 @@ h2 {
     padding-bottom: 0px;
     position: absolute;
     bottom: 0px;
+    width: 370px; height: 70px;
 }
 
 /* <!-- Наша команда --> */
@@ -199,15 +201,12 @@ h4 {
     justify-content: space-between;
 
 }
-.customers h2 {
-    padding-top: 94px;
-}
 
 .client-ya {
     background-image: url(../img/YACO.svg);
     display: inline-block;
     background-position:  center center;
-    width: 175px; height: 90px;
+    width: 170px; height: 90px;
     background-repeat: no-repeat;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -217,7 +216,7 @@ h4 {
     background-image: url(../img/tagline.svg);
     background-repeat: no-repeat;
     background-position:  center center;
-    width: 175px; height: 90px;
+    width: 170px; height: 90px;
     display: inline-block;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -226,7 +225,7 @@ h4 {
     background-image: url(../img/company.svg);
     background-repeat: no-repeat;
     background-position:  center center;
-    width: 175px; height: 90px;
+    width: 170px; height: 90px;
     display: inline-block;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -235,7 +234,7 @@ h4 {
     background-image: url(../img/foster.svg);
     background-repeat: no-repeat;
     background-position:  center center;
-    width: 175px; height: 90px;
+    width: 170px; height: 90px;
     display: inline-block;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -244,7 +243,7 @@ h4 {
     background-image: url(../img/brand.svg);
     background-repeat: no-repeat;
     background-position:  center center;
-    width: 175px; height: 90px;
+    width: 170px; height: 90px;
     display: inline-block;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -253,7 +252,7 @@ h4 {
     background-image: url(../img/tag.svg);
     background-repeat: no-repeat;
     background-position:  center center;
-    width: 175px; height: 90px;
+    width: 170px; height: 90px;
     display: inline-block;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
