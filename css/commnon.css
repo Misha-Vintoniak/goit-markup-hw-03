@@ -26,7 +26,7 @@ background: #2F303A;*/
 img {
     display: block;
     max-width: 100%;
-    
+
 }
 
 .header-logo {
@@ -96,10 +96,14 @@ header {
 .list .link:focus,
 .list .link:hover {
     color: var(--accent-color);
+    border-bottom: 4px solid;
+    border-radius: 2px;
 
 }
 .list .link.current {
     color: var(--accent-color);
+    border-bottom: 4px solid;
+    border-radius: 2px;
 }
 .site-nav .list-logo {
     margin: 0px 0px 0px 86px;
