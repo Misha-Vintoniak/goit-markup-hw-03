@@ -120,6 +120,7 @@ header {
 }
 .site-nav .items {
     margin: 0px  0px 0px auto;
+    
 /* }
 .malito {
     background-image: url(../img/mail.svg);
@@ -138,6 +139,7 @@ header {
 .items .tell-icon {
     min-width: 122px;
     margin-left: 50px;
+
 }
     /* <!-- footer --> */
 .footer {
